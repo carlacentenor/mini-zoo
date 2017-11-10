@@ -1,0 +1,59 @@
+body {
+  background-color: #fbfcca;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-family: 'Boogaloo', cursive;
+}
+
+.combo-box {
+  text-align: center;
+}
+
+.combo-box select {
+  outline: none;
+  height: 40px;
+  border: 3px solid #085e54;
+  border-radius: 10px;
+  background-color: #1ff0a5;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+}
+
+select option {
+  background-color: #caf1e3;
+}
+
+.animal {
+  width: 250px;
+  height: 250px;
+  margin: 0;
+  border-radius: 20px;
+}
+
+.container-images {
+  margin: 10px auto;
+  width: 850px;
+  height: 560px;
+}
+
+figure {
+  display: inline-block;
+  margin: 10px;
+}
+
+.negative-colors {
+  filter: invert(80%);
+}
+
+.sepia {
+  filter: sepia(100%);
+}
+
+.white-black {
+  filter: grayscale(100%);
+}
